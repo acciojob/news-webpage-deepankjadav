@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+h1{
+	background-color: #011e29;
+	color: white;
+	text-align: center;
+}
+.header{
+	text-align: center;
+	padding: 10px
+}
+.latest-news-section,.main_article,.pictorial-news-section{
+	background-color: white;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10%;
+}
+ul{
+	text-align: center;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
+:root{
+	background-color: #f5f5f5;
+}
